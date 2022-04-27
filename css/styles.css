@@ -494,6 +494,11 @@ img {
 }
 
 /* footer */
+
+.mail-footer-button:hover,
+.mail-footer-button:focus {
+    background-color: var(--second-blue-color);
+}
 .mailbox:focus-visible {
     outline: none;}
 .mailbox{
@@ -932,6 +937,6 @@ img {
     resize: none;
     height: 120px;
     margin-top: 4px;
-    color: 
+    
    
 }
