@@ -511,8 +511,11 @@ img {
 .mail-footer-button:focus {
     background-color: var(--second-blue-color);
 }
-.mailbox:focus {
-    outline: none;}
+.mailbox:focus{
+    outline: none;
+    border: 1px solid var(--accent-color);
+}
+    
 .mailbox{
     padding-left: 16px;
     color: rgba(255, 255, 255, 0.6);
