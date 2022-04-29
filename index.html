@@ -483,12 +483,17 @@
             ></textarea>
           </label>
           <div class="checkbox-modal-wrapper">
-            <input type="checkbox" id="policy" name="policy" />
-            <label for="policy" class="checkbox-modal-policy"
+            <label class="checkbox-modal-policy"
               >Соглашаюсь с рассылкой и принимаю
-              <a href="#">Условия договора</a></label
-            >
+              <a href="#">Условия договора</a>
+              <input
+                type="checkbox"
+                name="policy"
+                class="checkbox-form visually-hidden" />
+              <span class="checkbox-icon"></span
+            ></label>
           </div>
+          <button type="submit" class="form-button">Отправить</button>
         </form>
       </div>
     </div>
