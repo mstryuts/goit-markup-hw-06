@@ -499,7 +499,7 @@ img {
 .mail-footer-button:focus {
     background-color: var(--second-blue-color);
 }
-.mailbox:focus-visible {
+.mailbox:focus {
     outline: none;}
 .mailbox{
     padding-left: 16px;
@@ -907,8 +907,17 @@ img {
             outline: none;
             border: 1px solid rgba(33, 33, 33, 0.2);
             border-radius: 4px;
+            padding-left: 42px;
 
 }
+.form-input:focus{
+    border-color: rgba(33, 150, 243, 1);
+    outline: none;
+}
+.form-input:focus+.form-icon {
+    fill: var(--accent-color);
+}
+
 .form-label{
     font-size: 12px;
         line-height: 1.16;
@@ -937,6 +946,11 @@ img {
     resize: none;
     height: 120px;
     margin-top: 4px;
-    
-   
+    padding: 12px 16px;
+}
+.comment-area::placeholder {
+    font-size: 12px;
+    line-height: 1.16;
+    letter-spacing: 0.01em;
+    color: rgba(117, 117, 117, 0.5);
 }
